@@ -1,4 +1,5 @@
 const axios = require("axios").default;
+const { format, parseISO } = require("date-fns")
 const config = require("../../config");
 
 const API_KEY = config.API_KEY;
@@ -17,7 +18,7 @@ const normalizeItems = (items) => {
     return {
       videoId: item.snippet.resourceId.videoId,
       videoTitle: item.snippet.title,
-      publishedAt: item.snippet.publishedAt,
+      publishedAt: item.snippet.publishedAt
     };
   });
   return normalizedItems;

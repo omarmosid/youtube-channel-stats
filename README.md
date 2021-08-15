@@ -12,5 +12,5 @@ Get List of videos on your channel in CSV format
 3. Add a .env file to project root
 4. Add env variable API_KEY and put your google API key
 5. Add env variable API_PLAYLIST_ID and put your upload playlist id
-6. Run `npm start` and you will notice a new csv file: "test.csv" will be created with youtube data
+6. Run `npm start` and you will notice a new csv file: "data-123.csv" will be created with youtube data
 7. Open csv file

@@ -6,7 +6,7 @@ const main = async () => {
   // Fetch Date from youtube API
   const items = await fetchAllData();
   // Write to CSV
-  await writeToCsv();
+  await writeToCsv(items);
 };
 
 main();

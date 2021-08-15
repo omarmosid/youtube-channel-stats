@@ -14,7 +14,7 @@ const defaultHeader = [
 const writeToCsv = async (
   records = defaultRecords,
   header = defaultHeader,
-  path = "./test.csv"
+  path = `./data-${new Date().getTime()}.csv`
 ) => {
   console.log(`Writing ${records.length} records to CSV at "${path}"...`);
   const csvWriter = createCsvWriter({
