@@ -1,9 +1,11 @@
-## Youtube Stats Generator
+## Youtube Channel Stats
+Get List of videos on your channel in CSV format
+
 
 ### Pre-requisites
-** Make sure you have node and npm isntalled **
-** Make sure you have a google youtube API key **
-** Every channel has a default playlist for uploads. We will be using this playlist id to fetch list of all videos uploaded to your channel.
+1. ** Make sure you have node and npm installed **
+2. ** Make sure you have a google youtube API key. You can get an API key by following the steps mentioned here: https://developers.google.com/youtube/v3/getting-started **
+3. ** Every channel has a default playlist for uploads. We will be using this playlist id to fetch list of all videos uploaded to your channel.
 
 ### How to use
 1. Clone repo
